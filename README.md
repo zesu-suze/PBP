@@ -1,5 +1,4 @@
 # PBP
-# PBP
 
 PBP is an experimental Android application designed to interface with a Bluetooth controller device.  
 This project is open-source and developed for educational purposes.
