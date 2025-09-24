@@ -48,4 +48,20 @@ When you open the application for the first time, it will request **Nearby Devic
    ⚠ Important:  
    To activate accessibility for the app, follow these steps:  
    - Long press the app icon → Select **Settings of this app** (Storage, Battery, Clear data...).  
-   - Tap the **three dots** in the top right corner →
+   - Tap the **three dots** in the top right corner → Select **Allow restrictive settings**.  
+   - Once done, go back and enable Accessibility.
+
+4. **Using the App**  
+   - The app displays various information about the Poké Ball Plus and button states.  
+   - To configure which part of the screen each button should tap:  
+     - Go to **Configure Tap**.  
+     - Tap the area of the screen you want the app to simulate.  
+     - Note: This only works in landscape mode.  
+     - Gyroscope controls are not implemented yet due to technical issues.
+
+---
+
+⚠ **Disclaimer**:  
+This application is experimental and may not work perfectly on all devices.  
+Use at your own risk.  
+The developer is not responsible for any malfunction or damages caused by using this app.
