@@ -2,6 +2,7 @@
 
 PBP is an experimental Android application designed to interface with a Bluetooth controller device.  
 This project is open-source and developed for educational purposes.
+Video in reddit: https://www.reddit.com/r/EmulationOnAndroid/s/helF6rpAu3
 
 ## Features
 - Bluetooth connectivity for custom controller input.
