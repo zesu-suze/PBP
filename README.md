@@ -28,3 +28,24 @@ Users are responsible for ensuring that their use of this software complies with
 An experimental APK build is available for download under the "Releases" section.  
 Use at your own risk.  
 This project is not optimized for all devices.
+
+## How to Configure PBP App
+
+When you open the application for the first time, it will request **Nearby Devices permissions** (required for Bluetooth Low Energy).
+
+### Step-by-step configuration:
+
+1. **Permissions**  
+   Grant all requested permissions so the app can function correctly.
+
+2. **Accessibility & Location Services**  
+   - There is a button in the app to check Accessibility and Location.  
+   - Both services must be **enabled manually** for the app to work.  
+     - **Location** is required for finding the Poké Ball Plus device.  
+     - **Accessibility** allows the app to simulate screen taps for controls.
+
+3. **Enable Accessibility**  
+   ⚠ Important:  
+   To activate accessibility for the app, follow these steps:  
+   - Long press the app icon → Select **Settings of this app** (Storage, Battery, Clear data...).  
+   - Tap the **three dots** in the top right corner →
