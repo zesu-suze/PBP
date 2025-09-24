@@ -23,3 +23,8 @@ Users are responsible for ensuring that their use of this software complies with
 2. Open the project in Android Studio.
 
 3. Build and run the app on your device.
+
+## APK Release
+An experimental APK build is available for download under the "Releases" section.  
+Use at your own risk.  
+This project is not optimized for all devices.
