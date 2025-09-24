@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PokeballPlus</string>
+    <string name="accessibility_description">Permite que la app envíe eventos de botón al sistema.</string>
+</resources>

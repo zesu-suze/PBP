@@ -1,0 +1,154 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/openSettingsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open accessibility settings" />
+
+        <Button
+            android:id="@+id/btnCheckAccessibility"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check accessibility and location" />
+
+        <TextView
+            android:id="@+id/tvAccessibilityStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Unknown status"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/bleStatusText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Checking BLE permissions..."
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/connectButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Connect to Poké Ball Plus" />
+
+        <TextView
+            android:id="@+id/scanResultText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text=""
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/batteryLevelText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:text="🔋 Battery: --%"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/topButtonStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="TOP button status"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/joystickButtonStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Joystick button status"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/gyroData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Gyro: X=0.00, Y=0.00, Z=0.00, W=0.00"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/orientationAngles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Pitch: 0°, Yaw: 0°, Roll: 0°"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/accelData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Accel: X=0.00, Y=0.00, Z=0.00"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/joystickPosition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="🕹️ Joystick: X=0.0, Y=0.0"
+            android:textSize="16sp" />
+
+        <FrameLayout
+            android:id="@+id/joystickMap"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:background="#DDDDDD">
+
+            <View
+                android:id="@+id/joystickDot"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@android:color/holo_red_dark" />
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/configureTapButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Configure tap" />
+
+        <Button
+            android:id="@+id/disconnectButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Disconnect Poké Ball Plus" />
+
+        <Button
+            android:id="@+id/exitAppButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Close application" />
+
+        <ImageView
+            android:id="@+id/gyroImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_pokeball" />
+
+    </LinearLayout>
+</ScrollView>
